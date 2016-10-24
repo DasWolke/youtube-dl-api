@@ -1,0 +1,21 @@
+{
+  "name": "rem-bot-yt-proxy",
+  "version": "1.0.0",
+  "description": "A easy proxy for downloading youtube videos blocked in germany",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "julian hannig",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-datadog": "0.0.6",
+    "express": "^4.14.0",
+    "fluent-ffmpeg": "^2.1.0",
+    "node-dogstatsd": "0.0.6",
+    "winston": "^2.2.0",
+    "youtube-dl": "^1.11.1",
+    "ytdl-core": "^0.7.19"
+  }
+}

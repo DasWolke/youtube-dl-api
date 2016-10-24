@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+config/main.json
+cmd.bat
+yarn.lock
+.idea
+audio/
+node_modules/
+temp/
