@@ -66,7 +66,6 @@ var download = function (url, cb) {
 };
 var checkTime = function (info) {
     if (typeof (info.duration) === 'undefined' && typeof (info.length_seconds) === 'undefined') {
-        client.captureMessage('Duration undefined!', {extra: {'info': info}});
         return true;
     }
     if (typeof (info.duration) !== 'undefined') {
